@@ -96,6 +96,103 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
     font-size: 4rem;
-    color: rgb(181, 72, 148);
+    color: rgb(181, 71, 148);
     transition: 0.5s ease;
+}
+
+#checkbtn {
+    position: relative;
+    float: right;
+    line-height: 5rem;
+    margin-right: 50px;
+    font-size: 2rem;
+    color: white;
+
+}
+
+#closemenu {
+    position: relative;
+    display: none;
+    float: right;
+    line-height: 5rem;
+    margin-right: 3rem;
+    font-size: 2rem;
+    color: white;
+    z-index: 10000;
+
+}
+
+#check:checked~#checkbtn {
+    display: none;
+}
+
+#check:checked~#closemenu {
+    display: block;
+}
+
+#check:checked~ul {
+    left: 0%;
+}
+
+#checkbtn :active,
+#closemenu :active {
+    color: rgb(181, 71, 148);
+}
+
+
+#checkbtn:hover,
+#closemenu:hover {
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+
+#check {
+    display: none;
+}
+
+
+@keyframes coloranimation2 {
+    0% {
+        background-image: url(assets/182428240217.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url(assets/823985479947.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url(assets/182428240217.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+
+
+
+/* content */
+
+.main-content {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 82px);
+
+}
+
+.left-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
 }
