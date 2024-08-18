@@ -96,7 +96,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
     font-size: 4rem;
-    color: rgb(181, 70, 148);
+    color: rgb(181, 71, 148);
     transition: 0.5s ease;
 }
 
@@ -195,4 +195,109 @@ nav ul li a:hover {
     align-items: center;
     width: 50%;
     height: 100%;
+}
+
+.right-part {
+    overflow: auto;
+    width: 50%;
+    height: 580px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.details {
+    width: 600px;
+    padding: 50px;
+}
+
+.details h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    font-family: "Reem Kufi Fun", sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    background: #4099c6 -webkit-gradient(linear, left top, right top, from(#4099c6), to(#4099c6), color-stop(0.5, #fff)) 0 0 no-repeat;
+    background-size: 150px;
+    color: rgba(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+    animation: animate 5s infinite;
+
+
+}
+
+@keyframes animate {
+
+    0%,
+    10% {
+        background-position: -1000px;
+    }
+
+    20% {
+        background-position: top left;
+    }
+
+    90% {
+        background-position: top right;
+    }
+
+    100% {
+        background-position: 1000px;
+    }
+}
+
+
+.details h3 {
+    font-family: Marcellus SC;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.details p {
+    line-height: 2rem;
+    font-size: 20px;
+    margin: 20px 0px 40px 0;
+    font-family: "Josefin Sans", sans-serif;
+    overflow: hidden;
+}
+
+.btn-box {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 345px;
+    height: 50px;
+    background-color: transparent;
+
+}
+
+.btn-box a {
+
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #03e9f4;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.btn-box a:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.btn-box a:first-child {
+    filter: hue-rotate(225deg);
+}
+
+.btn-box a:last-child {
+    filter: hue-rotate(90deg);
+}
+
+.btn-box span {
+    position: absolute;
+    display: block;
 }
