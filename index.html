@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prayesh Patel</title>
+    <link rel="icon" href="assets/solsticeX.png">
+    <title>Solstice</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cursor.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -14,92 +15,103 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
-<body>
+<body class="light-theme dark-theme">
 
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
 
-    <div class="navbardiv">
+    <div class="navbardiv light-theme dark-theme">
         <nav class="navbar">
             <input type="checkbox" id="check" name="" id="">
 
             <label for="check" id="checkbtn" class="icon icon1"><i class="fa fa-bars"></i></label>
             <label for="check" id="closemenu" class="icon icon2"><i class="fa fa-times"></i></label>
+            
 
 
+            <label for="" class="logo"><span>S</span><span><img src="assets/solsticeX.png" alt="O"></span><span>LSTICE</span></label>
+                <label for="theme" class="theme">
+                    <span class="theme__toggle-wrap">
+                        <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+                        <span class="theme__fill"></span>
+                        <span class="theme__icon">
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                        </span>
+                    </span>
+                </label>
 
-            <label for="" class="logo"><span>I</span>M<span>POSSIBLE</label>
-                
 
-
-            <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="About_Me.html">About Me</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="light-theme  dark-theme">
+                <li><a class="active light-theme  dark-theme" href="#">Home</a></li>
+                <li><a class="light-theme  dark-theme" href="project.html">Projects</a></li>
+                <li><a class="light-theme  dark-theme" href="gallery.html">Gallery</a></li>
+                <li><a class="light-theme  dark-theme" href="About_Me.html">About Me</a></li>
+                <li><a class="light-theme  dark-theme" href="#">Contact</a></li>
             </ul>
 
         </nav>
     </div>
-    <div class="main-content">
+    <div class="main-content" class="light-theme  dark-theme">
         <div class="left-part">
-            <div class="details">
-                <h1>I'm PraYESS!!</h1>
+            <div class="details" class="light-theme  dark-theme">
+                <h1 class="light-theme-h1 dark-theme-h1">I'm PraYESS!!</h1>
                 <h3><span>Student</h3>
                 <p>"A Ship is always safe at shore but that's not what it's built for."</p>
                 <div class="btn-box">
-                    <a href="gallery.html">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <a class="button-light button-dark" href="gallery.html">
                         Gallery
                     </a>
-                    <a href="project.html">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <a class="button-light button-dark" href="project.html">
                         Projects
                     </a>
                 </div>
             </div>
 
-
-            <div class="footer">
+            
+            <div class="footer light-theme dark-theme">
                 <div class="findme">Find Me </div>
                 <div class="icons">
-                    <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="#"><i class="fa-solid fa-arrow-right-long light-theme  dark-theme"></i></a>
                     <a href="https://www.instagram.com/prayesh_007?igsh=YjZtdnNqZnAyZGNm" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
+                            class="fa-brands fa-instagram light-theme  dark-theme"></i></a>
                     <a href="https://x.com/patel_prayesh?t=MaBwOzrorudWhOUD4X6K-g&s=08" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
+                            class="fa-brands fa-x-twitter light-theme  dark-theme"></i></a>
                 </div>
             </div>
         </div>
 
 
         <div class="right-part">
-            <!-- <div class="picture">
-                <img src="assets/woman-6046019_960_720.jpg" alt="">
-            </div> -->
             <div class="picture">
-                    <img src="assets/woman-6046019_960_720.jpg" alt="">
-            </div>
+                <img src="assets/woman-6046019_960_720.jpg" alt="">
+        </div>
 
 
-            <div class="scroll-icon">
-                <img src="assets/scroll2.jpg" alt="">
-            </div>
+        <div class="scroll-icon">
+            <img src="assets/scroll2.jpg" alt="">
+        </div>
         </div>
 
 
 
     </div>
 
-    <script src="cursor.js"></script>
+    
+
+
+
+
+
     <script src="script.js"></script>
+    <script src="cursor.js"></script>
 </body>
 
 </html>
