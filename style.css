@@ -572,3 +572,59 @@ input {
     animation: homeanimation 48s infinite;
 }
 
+
+@keyframes homeanimation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    8.5% {
+        filter: hue-rotate(30deg);
+    }
+
+    17% {
+        filter: hue-rotate(60deg);
+    }
+
+    25.5% {
+        filter: hue-rotate(90deg);
+    }
+
+    33.5% {
+        filter: hue-rotate(120deg);
+    }
+
+    42% {
+        filter: hue-rotate(150deg);
+    }
+
+    50.5% {
+        filter: hue-rotate(180deg);
+    }
+
+    59% {
+        filter: hue-rotate(210deg);
+    }
+
+    67% {
+        filter: hue-rotate(240deg);
+    }
+
+    75.5% {
+        filter: hue-rotate(270deg);
+    }
+
+    84% {
+        filter: hue-rotate(300deg);
+    }
+
+    92.5% {
+        filter: hue-rotate(330deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+
+}
