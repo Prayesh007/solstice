@@ -547,3 +547,11 @@ input {
     font-weight: 400;
 
 }
+
+.btn-box a:hover {
+    background-color: #adb5ff;
+    color: #050801;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+
