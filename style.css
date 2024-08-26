@@ -648,3 +648,27 @@ input {
     /* color: black; */
     font-family: "Josefin Sans", sans-serif;
 }
+
+.icons {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.icons a:nth-child(1) {
+    margin: 0 10px;
+}
+
+.icons a:nth-child(2) {
+    margin: 0 10px;
+}
+
+.scroll-icon {
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+}
