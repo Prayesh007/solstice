@@ -628,3 +628,23 @@ input {
 
 
 }
+
+/* footer */
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    bottom: 0;
+    height: 10%;
+    width: 50%;
+    /* background-color: transparent; */
+
+}
+
+.findme {
+    /* color: black; */
+    font-family: "Josefin Sans", sans-serif;
+}
