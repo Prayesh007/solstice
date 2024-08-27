@@ -672,3 +672,29 @@ input {
     opacity: 0;
     transform: translateY(-20px);
 }
+
+
+
+
+
+
+
+
+
+@media (max-width :800px) {
+
+
+    .navbardiv {
+        position: fixed;
+        /* background-color: black; */
+        z-index: 9999;
+    }
+
+    .logo {
+        font-size: 1rem;
+        margin: 0 2rem;
+    }
+
+    .logo span img{
+        height: 35px;
+    }
