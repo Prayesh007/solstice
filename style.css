@@ -720,3 +720,33 @@ input {
         height: 76%;
         top: 112px;
     }
+
+    .picture {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+
+    .picture img {
+        border-radius: 0;
+    }
+
+    .picture a {
+        border-radius: 0;
+    }
+
+    .details {
+        /* background-color: #000; */
+        width: 100vw;
+        margin-bottom: 200px;
+        /* color: #ffffff; */
+
+    }
+
+    .details h1 {
+        font-size: 30px;
+    }
+
+    .details h3 {
+        font-size: 22px;
+        margin-top: 5px;
+    }
