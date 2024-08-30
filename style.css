@@ -750,3 +750,27 @@ input {
         font-size: 22px;
         margin-top: 5px;
     }
+
+    .details p {
+        margin: 20px 0 20px 0;
+    }
+
+    .btn-box {
+        width: 100%;
+
+    }
+
+    .btn-box a {
+        border: 2px solid rgb(0, 0, 0);
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 1rem;
+        margin-right: 5px;
+        letter-spacing: 2px;
+
+    }
