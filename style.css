@@ -788,3 +788,13 @@ input {
     .icons a:nth-child(1) {
         margin: 0 10px;
     }
+
+    .icons a:nth-child(2) {
+        margin: 0 10px;
+    }
+
+    .scroll-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #000; */
