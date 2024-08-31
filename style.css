@@ -774,3 +774,17 @@ input {
         letter-spacing: 2px;
 
     }
+
+    .footer {
+        width: 100%;
+        /* background-color: rgb(0, 0, 0); */
+        font-size: 1.5rem;
+    }
+
+    .findme {
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .icons a:nth-child(1) {
+        margin: 0 10px;
+    }
