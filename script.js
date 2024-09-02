@@ -17,3 +17,9 @@ let buttons = document.querySelectorAll('.button-light');
 
 let themeToggle = this.document.getElementById('theme');
 
+
+document.addEventListener("DOMContentLoaded",function(){
+    themeToggle.checked = false;
+    themeToggle.dispatchEvent(new Event('change'));
+    
+})
