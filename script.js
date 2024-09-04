@@ -40,3 +40,19 @@ themeToggle.addEventListener('change', function() {
         button.classList.add('button-light')
         button.classList.remove('button-dark')
         });
+        
+    } else {
+        body.classList.add('dark-theme')
+        body.classList.remove('light-theme')
+        toggle.forEach(togg =>{
+            togg.classList.add('dark-theme')
+            togg.classList.remove('light-theme')
+            });
+        heading.classList.add('dark-theme-h1')
+        heading.classList.remove('light-theme-h1')
+        buttons.forEach(button =>{
+            button.classList.add('button-dark')
+            button.classList.remove('button-light')
+            });
+    }
+});
