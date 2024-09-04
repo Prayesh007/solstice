@@ -23,3 +23,20 @@ document.addEventListener("DOMContentLoaded",function(){
     themeToggle.dispatchEvent(new Event('change'));
     
 })
+
+
+themeToggle.addEventListener('change', function() {
+
+    if (!(themeToggle.checked)) {
+        body.classList.add('light-theme')
+        body.classList.remove('dark-theme')
+        toggle.forEach(togg =>{
+            togg.classList.add('light-theme')
+            togg.classList.remove('dark-theme')
+            });
+        heading.classList.add('light-theme-h1')
+        heading.classList.remove('dark-theme-h1')
+        buttons.forEach(button =>{
+        button.classList.add('button-light')
+        button.classList.remove('button-dark')
+        });
