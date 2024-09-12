@@ -76,3 +76,15 @@ h2 {
     background-color: #000;
 
 }
+
+.findme {
+    color: #ededed;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
