@@ -30,3 +30,18 @@ html {
     background-color: #000;
     display: flex;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.toggle-bar {
+    margin-right: 30px;
+    height: 100px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
