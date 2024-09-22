@@ -45,3 +45,30 @@ nav {
     align-items: center;
     justify-content: space-around;
 }
+
+.toggle-bar a {
+    position: relative;
+    text-decoration: none;
+    font-family: Marcellus SC;
+    color: #a0a0a0;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.toggle-bar a:hover {
+    color: #ffffff;
+}
+
+
+
+.toggle-bar a::after {
+    content: '';
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+
+}
