@@ -72,3 +72,40 @@ nav {
     bottom: -10px;
 
 }
+
+.toggle-bar a:hover:after,
+.toggle-bar a.active::after {
+    color: #ffffff;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.backward {
+    height: 100px;
+    position: relative;
+    z-index: 9999;
+    transition: 0.5s;
+    line-height: 100px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: #ededed;
+}
+
+.icon {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.copyright {
+    position: relative;
+    display: inline flex;
+    float: right;
+    font-size: 1rem;
+    margin-right: 50px;
+    color: #ededed;
+    align-items: center;
+    height: 100px;
+    font-weight: 700;
+    z-index: 1040;
+
+}
