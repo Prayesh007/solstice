@@ -122,3 +122,20 @@ nav {
     width: 100%;
 
 }
+
+.poetry {
+    padding: 10px 30px 80px 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.cinema-item {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 220px - 0.8vw);
+    width: 40%;
+    margin: 42px 4vw;
+    border: 2px solid #fff;
+}
