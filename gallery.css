@@ -151,3 +151,18 @@ nav {
     width: 100%;
     object-fit: cover;
 }
+
+.cinema-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.cinema-item.clicked::after {
+    opacity: 1;
+    inset: 20px;
+}
