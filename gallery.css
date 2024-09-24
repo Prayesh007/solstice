@@ -166,3 +166,16 @@ nav {
     opacity: 1;
     inset: 20px;
 }
+
+.cinema-item.clicked video {
+    filter: grayscale(1) brightness(0.4);
+}
+
+.content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
