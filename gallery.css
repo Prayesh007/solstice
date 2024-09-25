@@ -202,3 +202,22 @@ nav {
     transform: translateY(50%);
 
 }
+
+.cinema-item.clicked .content h2 {
+    scale: 1;
+    opacity: 1;
+}
+
+.cinema-item.clicked .content p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.poetry-item {
+    display: inline-flex;
+    height: calc(100vh - 220px - 0.8vw);
+    width: 40%;
+    margin: 42px 4vw;
+    border: 2px solid rgb(255, 255, 255);
+
+}
