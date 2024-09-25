@@ -221,3 +221,15 @@ nav {
     border: 2px solid rgb(255, 255, 255);
 
 }
+
+.poetry h2 {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+.hidden {
+    display: none;
+}
