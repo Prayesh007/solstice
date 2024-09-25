@@ -249,3 +249,24 @@ nav {
     background-color: #000;
 
 }
+
+.social {
+    display: flex;
+    margin-left: 50px;
+}
+
+.findme {
+    color: #ededed;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons a {
+    color: #ededed;
+}
