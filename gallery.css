@@ -299,3 +299,10 @@ nav {
     width: 42px;
     height: 90px;
 }
+
+.hidden-btn {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+
