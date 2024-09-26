@@ -270,3 +270,32 @@ nav {
 .icons a {
     color: #ededed;
 }
+
+.icons a:nth-child(1) {
+    margin: 0 10px;
+}
+
+.icons a:nth-child(2) {
+    margin: 0 10px;
+}
+
+.scroll-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-top-left-radius: 20%;
+    position: absolute;
+    bottom: 70px;
+    right: 2.5%;
+    width: 60px;
+    height: 115px;
+    transition: 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.scroll-icon img {
+    position: absolute;
+    z-index: 9999;
+    width: 42px;
+    height: 90px;
+}
