@@ -327,4 +327,36 @@ nav {
         width: auto;
         height: calc(100vh - 268px - 0.8vw);
     }
+
+    .poetry-item {
+        display: block;
+        width: auto;
+        height: calc(100vh - 310px - 0.8vw);
+    }
+
+    .social {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .icons {
+        margin-left: -5px;
+    }
+
+    .icons a:nth-child(1) {
+        margin: 0 -10px 0 0px;
+    }
+
+    .icons a:nth-child(2) {
+        margin: 0 -5px 0 -5px;
+    }
+
+    .icons a:nth-child(3) {
+        margin: 0 0 0 -15px;
+    }
+
+    .copyright {
+        margin-right: 30px;
+    }
+
 }
