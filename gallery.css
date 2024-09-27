@@ -306,3 +306,25 @@ nav {
 }
 
 
+
+@media (max-width :800px) {
+    .toggle-bar {
+        width: 200px;
+    }
+
+    .toggle-bar a {
+        font-size: 25px;
+    }
+
+    .backward {
+        margin-left: 25px;
+        font-size: 40px;
+    }
+
+    .cinema-item {
+        margin: 0 0 42px 0;
+        display: block;
+        width: auto;
+        height: calc(100vh - 268px - 0.8vw);
+    }
+}
