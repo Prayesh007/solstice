@@ -15,3 +15,10 @@ toggle1.addEventListener('click', function () {
 
 
 });
+toggle2.addEventListener('click', function () {
+    cinema.classList.add('hidden');
+    poetry.classList.remove('hidden');
+    toggle2.classList.add('active');
+    toggle1.classList.remove('active');
+
+});
