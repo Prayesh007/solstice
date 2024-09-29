@@ -34,3 +34,29 @@ window.addEventListener('scroll', function () {
     }
 
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const videoDiv = document.querySelectorAll('.cinema-item');
+
+    function enableHoverPlay() {
+        for (const div of videoDiv) {
+            const video = div.querySelector('video');
+            div.addEventListener('mouseover', function () {
+                for (const otherDiv of videoDiv) {
+                    const otherVideo = otherDiv.querySelector('video');
+                    if (otherVideo !== video) {
+                        otherVideo.pause();
+                        otherVideo.currentTime = 0;
+                    }
+                }
+                video.play();
+            });
+
+
+        }
+    }
+
+    enableHoverPlay();
+});
