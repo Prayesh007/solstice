@@ -22,3 +22,15 @@ toggle2.addEventListener('click', function () {
     toggle1.classList.remove('active');
 
 });
+
+// code for scroll icon
+
+let icon = document.querySelector('.scroll-icon');
+window.addEventListener('scroll', function () {
+
+
+    if (window.scrollY > 0) {
+        icon.classList.add('hidden-btn');
+    }
+
+});
