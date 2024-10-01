@@ -60,3 +60,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
     enableHoverPlay();
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const videoDiv = document.querySelectorAll('.cinema-item');
+    let clickCount = 0;
+
+    function clickToPlay() {
+        for (const div of videoDiv) {
+
+            div.addEventListener('click', function () {
+                clickCount++;
+                if (clickCount % 2 === 1) {
+                    div.classList.add('clicked');
+                } else {
+                    div.classList.remove('clicked');
+                }
+
+            });
+
+
+
+        }
+    }
+
+    clickToPlay();
+});
