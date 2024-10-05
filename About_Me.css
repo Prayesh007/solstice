@@ -54,3 +54,29 @@ html {
     z-index: 1040;
 
 }
+
+
+
+.main-container {
+
+    background-image: url(assets/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 140px);
+    padding: 40px 100px;
+}
+
+.title-container {
+    height: 80px;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.details {
+
+    display: flex;
+    flex-grow: 1;
+}
