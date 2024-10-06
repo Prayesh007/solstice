@@ -142,3 +142,29 @@ html {
     background-color: rgba(0, 0, 0, 0.7);
 
 }
+
+.right-part {
+    padding: 50px;
+    color: #ededed;
+}
+
+.right-part h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #18d26e;
+    font-family: "Marcellus SC", serif;
+}
+
+.right-part h3 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: "Marcellus SC", serif;
+}
+
+.right-part p {
+
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
