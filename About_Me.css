@@ -99,3 +99,19 @@ html {
     background: #4ceb95;
     margin: 4px 10px;
 }
+
+.title-container p {
+
+    padding: 10px 0 0 50px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+
+}
+
+.about1,
+.about2 {
+    width: 30%;
+}
