@@ -193,3 +193,16 @@ html {
     justify-content: space-around;
     align-items: center;
 }
+
+.icons a {
+    color: #ededed;
+}
+
+.icons a:nth-child(1) {
+    margin: 0 10px;
+}
+
+.icons a:nth-child(2) {
+    margin: 0 10px;
+}
+
