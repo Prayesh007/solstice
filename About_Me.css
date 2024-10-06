@@ -80,3 +80,22 @@ html {
     display: flex;
     flex-grow: 1;
 }
+
+.title-container h2 {
+    padding: 10px 0 0 50px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.title-container h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
