@@ -206,3 +206,20 @@ html {
     margin: 0 10px;
 }
 
+
+
+@media (max-width :1399px) {
+    .right-part h1 {
+        font-size: 55px;
+    }
+
+    .right-part h3 {
+        font-size: 40px;
+    }
+
+    .title-container p {
+        font-size: 25px;
+    }
+
+
+}
