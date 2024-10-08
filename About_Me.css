@@ -252,3 +252,40 @@ html {
 
 
 }
+
+@media (max-width :900px) {
+    .right-part h1 {
+
+        font-size: 40px;
+    }
+
+    .right-part h3 {
+
+        font-size: 30px;
+    }
+
+    .right-part p {
+        font-size: 30px;
+    }
+
+    .title-container p {
+        font-size: 15px;
+    }
+
+    .left-part {
+        padding: 10px;
+    }
+
+    .title-container h2 {
+        padding: 15px 0 0 25px;
+    }
+
+    .title-container p {
+        padding: 15px 0 0 25px;
+    }
+
+    .title-container h2::after {
+        width: 60px;
+    }
+
+}
