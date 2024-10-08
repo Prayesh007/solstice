@@ -223,3 +223,24 @@ html {
 
 
 }
+
+@media (max-width :1150px) {
+
+    .title-container h2 {
+        padding: 15px 0 0 50px;
+        font-size: 10px;
+    }
+
+    .title-container p {
+        font-size: 20px;
+    }
+
+    .left-part {
+        padding: 30px;
+    }
+
+    .title-container h2::after {
+        width: 70px;
+    }
+
+}
