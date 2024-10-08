@@ -244,3 +244,11 @@ html {
     }
 
 }
+
+@media (max-width :1000px) {
+    .main-container {
+        padding: 40px 25px;
+    }
+
+
+}
