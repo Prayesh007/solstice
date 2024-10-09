@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio Website , solstice.
+Portfolio Website , solstice
