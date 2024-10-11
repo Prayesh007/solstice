@@ -289,3 +289,60 @@ html {
     }
 
 }
+
+@media (max-width :900px) {
+    .backward {
+        font-size: 35px;
+    }
+
+    .main-container {
+        display: block;
+        height: fit-content;
+    }
+
+    .details {
+        height: fit-content;
+        display: block;
+    }
+
+    .left-part {
+        padding: 30px;
+        height: calc(100vh - 330px);
+        width: 100%;
+    }
+
+    .right-part {
+        padding: 30px;
+        margin: 50px 0 90px 0;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .right-part h1 {
+
+        font-size: 25px;
+    }
+
+    .right-part h3 {
+
+        font-size: 20px;
+    }
+
+    .right-part p {
+        font-size: 20px;
+    }
+
+    .about1,
+    .about2 {
+        /* text-align: center; */
+        width: 100%;
+    }
+
+    .title-container p {
+        text-align: center;
+        font-size: 25px;
+        padding: 15px 0 0 0;
+    }
+
+
+}
