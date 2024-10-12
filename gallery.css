@@ -359,4 +359,43 @@ nav {
         margin-right: 30px;
     }
 
+    .content h2 {
+        opacity: 0;
+        font-size: 30px;
+        margin-bottom: 40px;
+
+    }
+
+    .content p {
+        opacity: 0;
+        font-size: 30px;
+
+    }
+
+    .cinema-item.clicked video {
+        filter: grayscale(1) brightness(0.4);
+    }
+
+    .cinema-item.clicked::after {
+        opacity: 1;
+        inset: 20px;
+    }
+
+
+    .cinema-item.clicked .content h2 {
+        scale: 1;
+        opacity: 1;
+    }
+
+    .cinema-item.clicked .content p {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+
+    .scroll-icon {
+        bottom: 113px;
+        right: 13.5%;
+    }
 }

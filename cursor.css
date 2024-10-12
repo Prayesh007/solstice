@@ -1,0 +1,38 @@
+.cursor-dot{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    mix-blend-mode:difference;
+
+}
+.cursor-outline{
+    width: 15px;
+    height: 15px;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+    background-color: yellow;
+    mix-blend-mode:difference;
+
+}
+.cursor-dot,
+.cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index: 9999999;
+    pointer-events: none;
+}
+.cursor{
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+}
+
+@media(max-width:800px){
+    .cursor-dot,
+    .cursor-outline{
+        display: none;
+    }
+
+}
