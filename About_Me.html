@@ -13,23 +13,49 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
 </head>
 
-<body>
-    <div class="navbardiv">
+<body class="light-theme dark-theme">
 
-        <div class="cursor-dot" data-cursor-dot></div>
-        <div class="cursor-outline" data-cursor-outline></div>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <div class="navbardiv light-theme dark-theme">
+        <nav class="navbar">
+            <input type="checkbox" id="check" name="" id="">
+
+            <label for="check" id="checkbtn" class="icon icon1"><i class="fa fa-bars"></i></label>
+            <label for="check" id="closemenu" class="icon icon2"><i class="fa fa-times"></i></label>
+            
 
 
-        <nav>
-            <a href="index.html"><label for="" class="backward"><i class="fa-solid fa-arrow-left"></i></label></a>
+            <label for="" class="logo"><span>S</span><span><img src="assets/solsticeX.png" alt="O"></span><span>LSTICE</span></label>
+                <label for="theme" class="theme">
+                    <span class="theme__toggle-wrap">
+                        <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+                        <span class="theme__fill"></span>
+                        <span class="theme__icon">
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                            <span class="theme__icon-part"></span>
+                        </span>
+                    </span>
+                </label>
 
-            <div class="copyright">
-                <label for="" class="icon"><i class="fa-regular fa-copyright"></i></label>
-                <label for="">prayesh_007</label>
-            </div>
+
+            <ul class="light-theme  dark-theme">
+                <li><a class="light-theme  dark-theme" href="index.html">Home</a></li>
+                <li><a class="light-theme  dark-theme" href="project.html">Projects</a></li>
+                <li><a class="light-theme  dark-theme" href="gallery.html">Gallery</a></li>
+                <li><a class="light-theme  dark-theme" href="About_Me.html">About Me</a></li>
+                <li><a class="light-theme  dark-theme" href="Contact_Me.html">Contact</a></li>
+            </ul>
 
         </nav>
-
     </div>
 
 
@@ -60,14 +86,15 @@
         </div>
 
     </div>
-    <div class="footer">
+
+    <div class="footer light-theme dark-theme">
         <div class="findme">Find Me </div>
         <div class="icons">
-            <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="#"><i class="fa-solid fa-arrow-right-long light-theme dark-theme"></i></a>
             <a href="https://www.instagram.com/prayesh_007?igsh=YjZtdnNqZnAyZGNm"><i
-                    class="fa-brands fa-instagram"></i></a>
+                    class="fa-brands fa-instagram light-theme dark-theme"></i></a>
             <a href="https://x.com/patel_prayesh?t=MaBwOzrorudWhOUD4X6K-g&s=08"><i
-                    class="fa-brands fa-x-twitter"></i></a>
+                    class="fa-brands fa-x-twitter light-theme dark-theme"></i></a>
         </div>
 
     </div>
@@ -76,6 +103,7 @@
 
 
     <script src="cursor.js"></script>
+    <script src="script.js"></script>
     <script src="About_Me.js"></script>
 </body>
 
