@@ -29,7 +29,7 @@ This portfolio was built using:
 
 If you like this portfolio or have any suggestions, let's connect!
 
-- **Email**: [prayeshpatel079@gmail.com](prayeshpatel079@gmail.com)
+- **Email**: prayeshpatel079@gmail.com
 - **X**: [My X profile](https://x.com/patel_prayesh)
 
 
