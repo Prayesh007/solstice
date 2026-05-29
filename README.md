@@ -33,5 +33,5 @@ If you like this portfolio or have any suggestions, let's connect!
 - **X**: [My X profile](https://x.com/patel_prayesh)
 
 
-Thank you for visiting my portfolio!
+Thank you for visiting my portfolio!......
 
